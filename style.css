@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+}
+
+.gameboard {
+  --size: min(100vh, 100vw);
+  width: var(--size);
+  height: var(--size);
+  background:pink;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr ;
+  margin:auto;
+  min-width:250px;
+ 
+}
+.cell {
+  font-size:80px
+}
+h1 {
+  margin-top:0;
+}
+dialog{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  border:none;
+  border-radius:20px;
+  box-shadow:2px 2px 4px gray
+}
+dialog button {
+  padding: 10px 20px;
+  font-size:20px;
+  background:blue;
+  color:white;
+  font-weight:bolder;
+  border-radius:10px;
+  border:none
+}
